@@ -22,7 +22,7 @@ class Vehicle {
         this.wheels = 4;
     }
     rolling () {
-        return "Rolling down the highway on ${this.wheels} wheels."
+        return `Rolling down the highway on ${this.wheels} wheels.`
     }
 }
 
@@ -45,7 +45,7 @@ class Car extends Vehicle {
     }
 
     doorsAndWheels() {
-        return "My car has ${this.doors} doors and ${this.wheels} wheels.";
+        return `My car has ${this.doors} doors and ${this.wheels} wheels.`;
     }
 }
 
@@ -98,7 +98,7 @@ function iceCreamFactory(iceCreamFlavor) {
     return {
         cone: "waffle",
         serve: function () {
-            return "Here's your ${flavor} ice cream in a ${cone} cone.";
+            return `Here's your ${flavor} ice cream in a ${cone} cone.`;
         }
     };
 }
